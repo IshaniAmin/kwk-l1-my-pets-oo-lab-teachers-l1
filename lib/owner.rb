@@ -1,7 +1,7 @@
 class Owner
 
-  def initialize(name)
-    @name = name
+  def initialize(owner)
+    @owner = owner
   end
 
  end
