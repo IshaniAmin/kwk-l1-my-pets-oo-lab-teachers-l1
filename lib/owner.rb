@@ -13,7 +13,9 @@ class Owner
   end
 
   def pets
-    :fishes => [], :dogs => [], :cats => []
+    @fishes => []
+    @dogs => []
+    @cats => []
   end
 
  end
