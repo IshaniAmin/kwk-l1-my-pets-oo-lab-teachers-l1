@@ -21,12 +21,12 @@ class Owner
     @pets[:fishes] << fish
   end
 
-  def buy_cat(fish)
-    @pets[:cats] << fish
+  def buy_cat(cat)
+    @pets[:cats] << cat
   end
 
-  def buy_dog(fish)
-    @pets[:dogs] << fish
+  def buy_dog(dog)
+    @pets[:dogs] << dog
   end
 
  end
