@@ -30,7 +30,7 @@ class Owner
   end
 
   def list_pets
-    
+    @pets.each_value {|value| puts value }
   end
 
  end
